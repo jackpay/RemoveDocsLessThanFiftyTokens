@@ -15,6 +15,6 @@ def copyDocsGreaterThanN(inLoc,outLoc, n=50):
 
 
 if __name__ == "__main__":
-    inLoc = "/Users/jp242/Documents/Projects/Lumi/Experiments/ner-two/non-music-parsed/tok-pos-per-loc-org/22-04-2014"
-    outLoc = "/Users/jp242/Documents/Projects/Lumi/Experiments/ner-two/non-music-parsed-100"
-    copyDocsGreaterThanN(inLoc,outLoc,100)
+    inLoc = "/Volumes/External/Datasets/pos-ner-samples-music/tok-pos-el/28-04-2014"
+    outLoc = "/Volumes/External/Datasets/pos-ner-samples-music/above-20-tokens"
+    copyDocsGreaterThanN(inLoc,outLoc,20)
